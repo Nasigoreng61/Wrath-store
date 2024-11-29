@@ -1,0 +1,155 @@
+/* Reset dasar */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white; /* Warna hitam */
+    margin: 0;
+    padding: 0;
+}
+
+/* Judul halaman */
+h1 {
+    color: #003366; /* Biru tua */
+    margin-top: 20px;
+    font-size: 36px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Area galeri */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+/* Kotak setiap item galeri */
+.gallery-item {
+    width: 22%;
+    margin: 10px;
+    background: #ffffff; /* Putih */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid #87ceeb; /* Bingkai biru langit */
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-color: #003366; /* Bingkai biru tua saat hover */
+}
+
+/* Gambar dalam galeri */
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery-item p {
+    margin: 10px 0;
+    color: #333333; /* Abu-abu gelap */
+    font-weight: bold;
+    background-color: #f0f8ff; /* Latar belakang teks */
+    padding: 5px 0;
+    border-top: 1px solid #87ceeb;
+}
+
+/* Area pembayaran */
+.payment {
+    margin-top: 30px;
+}
+
+.payment p {
+    font-size: 20px;
+    color: #003366; /* Biru tua */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.payment-icons img {
+    width: 50px;
+    margin: 0 10px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: grayscale(50%); /* Ikon awal hitam putih */
+}
+
+.payment-icons img:hover {
+    transform: scale(1.2);
+    filter: grayscale(0); /* Ikon berwarna saat hover */
+}
+/* List Harga Diamond */
+.price-list {
+    margin: 30px auto;
+    max-width: 800px;
+    background-color: #ffffff; /* Latar putih */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border: 2px solid #87ceeb; /* Bingkai biru langit */
+}
+
+.price-list h2 {
+    font-size: 28px;
+    color: #003366; /* Biru tua */
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.price-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.price-list li {
+    font-size: 18px;
+    color: #333333; /* Abu-abu gelap */
+    margin: 10px 0;
+    padding: 5px;
+    border-bottom: 1px dashed #87ceeb; /* Garis bawah biru langit */
+}
+
+.price-list li:last-child {
+    border-bottom: none; /* Hapus garis pada item terakhir */
+}
+
+/* Hubungi Aku */
+.contact {
+    margin: 30px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 28px;
+    color: #003366; /* Biru tua */
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp-link {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.whatsapp-link img {
+    width: 50px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.whatsapp-link img:hover {
+    transform: scale(1.2);
+    filter: brightness(1.2); /* Lebih terang saat hover */
+}
+
+.contact span {
+    font-size: 20px;
+    color: #333333; /* Abu-abu gelap */
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
